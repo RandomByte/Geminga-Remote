@@ -1,0 +1,26 @@
+{
+  "name": "Geminga-Remote",
+  "version": "0.0.0",
+  "description": "Remote node for Geminga",
+  "main": "geminga-remote.js",
+  "dependencies": {
+    "json-socket": "~0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RandomByte/Geminga-Remote"
+  },
+  "keywords": [
+    "geminga"
+  ],
+  "author": "Merlin Beutlberger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RandomByte/Geminga-Remote/issues"
+  },
+  "homepage": "https://github.com/RandomByte/Geminga-Remote"
+}
