@@ -87,8 +87,8 @@ tcpServer.on('connection', function(netSocket) {
             console.log("Received command: " + msg.command);
             switch (msg.command) {
                 case "checkConnectivity":
-                    var oStartedRegex = /VPN '[a-zA-Z0-9]*' is running/,
-                        oStoppedRegex = /VPN '[a-zA-Z0-9]*' is not running/,
+                    var oStartedRegex = /VPN '[a-zA-Z0-9_-]*' is running/,
+                        oStoppedRegex = /VPN '[a-zA-Z0-9_-]*' is not running/,
                         res = {
                             data: "Successful connection from " +
                                         netSocket.remoteAddress + ":" + netSocket.remotePort,
